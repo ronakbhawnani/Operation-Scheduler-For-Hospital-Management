@@ -1,0 +1,32 @@
+.block {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+
+    box-shadow: 0 0 10px var(--mint-green);
+    background-image: linear-gradient(135deg, var(--mint-green-transparent-50), var(--light-gray-transparent-50));
+
+    text-align: justify;
+
+    line-height: 1.25em;
+}
+
+.block ul {
+    margin-left: 30px;
+}
+
+.block p {
+    margin: 10px 0;
+}
+
+.block blockquote,
+.block dl,
+.block dt,
+.block dd {
+    padding: revert;
+    margin: revert;
+}
+
+.block :last-child {
+    margin-bottom: 0;
+}
